@@ -39,7 +39,7 @@ header {
 }
 
 .container {
-    max-width: 40%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -58,15 +58,17 @@ header {
     background-image: url("img/item4-big.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     margin-bottom: 80px;
 }
 
 .stars {
-    padding: 25px 30px;
+    padding: 10px;
     background-image: url("img/stars.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .item1 {
@@ -173,6 +175,10 @@ footer {
     padding-bottom: 30px;
 }
 
+.flag {
+    width: 20px;
+}
+
 option,
 select {
     text-decoration: none;
@@ -220,10 +226,6 @@ li>a {
 }
 
 .rotate {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -262,12 +264,8 @@ li>a {
 
 }
 
-.flexcolumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
+/* Hover effects */
 button:hover {
     font-size: larger;
     color: #1847e2;
