@@ -26,11 +26,9 @@ header {
     background-position: bottom;
 }
 
-.logo {
-    width: 10%;
-    background-image: url("img/logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
+img {
+    width: 100%;
+    vertical-align: text-top;
 }
 
 .menu {
@@ -71,12 +69,6 @@ header {
     background-position: center;
 }
 
-.item1 {
-    background-image: url("img/item1.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .item2 {
     background-image: url("img/item2.svg");
     background-size: contain;
@@ -95,7 +87,7 @@ footer {
 }
 
 .containerfooter {
-    max-width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -123,6 +115,7 @@ footer {
 .title {
     margin-bottom: 30px;
     padding-top: 50px;
+    font-size: 4rem;
 }
 
 .download {
@@ -147,7 +140,6 @@ footer {
     border-radius: 30px;
     text-align: center;
     padding: 20px 20px;
-    width: 40%;
     background-color: #23272a;
     color: white;
     margin-left: 40px;
@@ -241,7 +233,6 @@ li>a {
 .flexrowmain {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 30px 0;
 
 }
